@@ -1,8 +1,9 @@
 .speech-bubble-left {
 	position: relative;
-	background: #00aabb;
+	/* background: #00aabb; */
+	background: #3FEFFF;
 	border-radius: 0.4em;
-  padding: 2%;
+	padding: 2%;
 }
 
 .speech-bubble-left::after {
@@ -13,7 +14,7 @@
 	width: 0;
 	height: 0;
 	border: 0.625em solid transparent;
-	border-right-color: #00aabb;
+	border-right-color: #3FEFFF;
 	border-left: 0;
 	margin-top: -0.625em;
 	margin-left: -0.625em;
@@ -22,9 +23,9 @@
 
 .speech-bubble-right {
 	position: relative;
-	background: #00aabb;
+	background: #3FEFFF;
 	border-radius: 0.4em;
-  padding: 2%;
+	padding: 2%;
 }
 
 .speech-bubble-right::after {
@@ -35,7 +36,7 @@
 	width: 0;
 	height: 0;
 	border: 0.625em solid transparent;
-	border-left-color: #00aabb;
+	border-left-color: #3FEFFF;
 	border-right: 0;
 	margin-top: -0.625em;
 	margin-right: -0.625em;
